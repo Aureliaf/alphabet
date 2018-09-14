@@ -1,0 +1,433 @@
+/* Layout
+-------------------------------------------------------------*/
+
+.content {
+	display: table;
+}
+
+.box {
+	float: left;
+	width: calc(100vw / 6);
+	height: calc(100vh / 5);
+	/*background-color: blue;*/
+	padding: 0;
+	margin: 0;
+	z-index: 3;
+}
+
+.fill {
+	height: 60%;
+    position: absolute;
+    left: calc(50% - 30vh);
+    bottom: calc(50% - 30vh);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.fill--a {
+    stroke-dasharray: 608;
+    stroke-dashoffset: 608;
+}
+
+.fill--b {
+    stroke-dasharray: 642;
+    stroke-dashoffset: 642;
+}
+
+.fill--c {
+    stroke-dasharray: 559;
+    stroke-dashoffset: 559;
+}
+
+.fill--d {
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+}
+
+.fill--e {
+    stroke-dasharray: 603;
+    stroke-dashoffset: 603;
+}
+
+.fill--f {
+    stroke-dasharray: 519;
+    stroke-dashoffset: 519;
+}
+
+.fill--g {
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+}
+
+.fill--h {
+    stroke-dasharray: 601;
+    stroke-dashoffset: 601;
+}
+
+.fill--i {
+    stroke-dasharray: 413;
+    stroke-dashoffset: 413;
+}
+
+.fill--j {
+    stroke-dasharray: 413;
+    stroke-dashoffset: 413;
+}
+
+.fill--k {
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+}
+
+.fill--l {
+    stroke-dasharray: 413;
+    stroke-dashoffset: 413;
+}
+
+.fill--m {
+    stroke-dasharray: 823;
+    stroke-dashoffset: 823;
+}
+
+.fill--n {
+    stroke-dasharray: 648;
+    stroke-dashoffset: 648;
+}
+
+.fill--o {
+    stroke-dasharray: 557;
+    stroke-dashoffset: 557;
+}
+
+.fill--p {
+    stroke-dasharray: 503;
+    stroke-dashoffset: 503;
+}
+
+.fill--q {
+    stroke-dasharray: 639;
+    stroke-dashoffset: 639;
+}
+
+.fill--r {
+    stroke-dasharray: 582;
+    stroke-dashoffset: 582;
+}
+
+.fill--s {
+    stroke-dasharray: 584;
+    stroke-dashoffset: 584;
+}
+
+.fill--t {
+    stroke-dasharray: 409;
+    stroke-dashoffset: 409;
+}
+
+.fill--u {
+    stroke-dasharray: 533;
+    stroke-dashoffset: 533;
+}
+
+.fill--v {
+    stroke-dasharray: 479;
+    stroke-dashoffset: 479;
+}
+
+.fill--w {
+    stroke-dasharray: 837;
+    stroke-dashoffset: 837;
+}
+
+.fill--x {
+    stroke-dasharray: 555;
+    stroke-dashoffset: 555;
+}
+
+.fill--y {
+    stroke-dasharray: 414;
+    stroke-dashoffset: 414;
+}
+
+.fill--z {
+    stroke-dasharray: 542;
+    stroke-dashoffset: 542;
+}
+
+
+
+
+
+
+
+.a {
+	background: url(assets/img/a.png) no-repeat center center;
+
+	&:hover {
+	    .fill--a polyline {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.b {
+	background: url(assets/img/b.png) no-repeat center center;
+
+	&:hover {
+	    .fill--b path {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.c {
+	background: url(assets/img/c.png) no-repeat center center;
+
+	&:hover {
+	    .fill--c path {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.d {
+	background: url(assets/img/d.png) no-repeat center center;
+
+	&:hover {
+	    .fill--d path {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.e {
+	background: url(assets/img/e.png) no-repeat center center;
+
+	&:hover {
+	    .fill--e polyline {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.f {
+	background: url(assets/img/f.png) no-repeat center center;
+
+	&:hover {
+	    .fill--f polyline {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.g {
+	background: url(assets/img/g.png) no-repeat center center;
+
+	&:hover {
+	    .fill--g path {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.h {
+	background: url(assets/img/h.png) no-repeat center center;
+
+	&:hover {
+	    .fill--h polyline {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.i {
+	background: url(assets/img/i.png) no-repeat center center;
+
+	&:hover {
+	    .fill--i polyline {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.j {
+	background: url(assets/img/j.png) no-repeat center center;
+
+	&:hover {
+	    .fill--j path {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.k {
+	background: url(assets/img/k.png) no-repeat center center;
+
+	&:hover {
+	    .fill--k polyline {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.l {
+	background: url(assets/img/l.png) no-repeat center center;
+
+	&:hover {
+	    .fill--l polyline {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.m {
+	background: url(assets/img/m.png) no-repeat center center;
+
+	&:hover {
+	    .fill--m polyline {
+	        animation: fill 2.5s ease-out forwards;
+	    }
+	}
+}
+
+.n {
+	background: url(assets/img/n.png) no-repeat center center;
+
+	&:hover {
+	    .fill--n polyline {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.o {
+	background: url(assets/img/o.png) no-repeat center center;
+
+	&:hover {
+	    .fill--o path {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.p {
+	background: url(assets/img/p.png) no-repeat center center;
+
+	&:hover {
+	    .fill--p path {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.q {
+	background: url(assets/img/q.png) no-repeat center center;
+
+	&:hover {
+	    .fill--q path {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.r {
+	background: url(assets/img/r.png) no-repeat center center;
+
+	&:hover {
+	    .fill--r path {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.s {
+	background: url(assets/img/s.png) no-repeat center center;
+
+	&:hover {
+	    .fill--s path {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.t {
+	background: url(assets/img/t.png) no-repeat center center;
+
+	&:hover {
+	    .fill--t polyline {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.u {
+	background: url(assets/img/u.png) no-repeat center center;
+
+	&:hover {
+	    .fill--u path {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.v {
+	background: url(assets/img/v.png) no-repeat center center;
+
+	&:hover {
+	    .fill--v polyline {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.w {
+	background: url(assets/img/w.png) no-repeat center center;
+
+	&:hover {
+	    .fill--w polyline {
+	        animation: fill 2.5s ease-out forwards;
+	    }
+	}
+}
+
+.x {
+	background: url(assets/img/x.png) no-repeat center center;
+
+	&:hover {
+	    .fill--x polyline {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.y {
+	background: url(assets/img/y.png) no-repeat center center;
+
+	&:hover {
+	    .fill--y polyline {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+.z {
+	background: url(assets/img/z.png) no-repeat center center;
+
+	&:hover {
+	    .fill--z polyline {
+	        animation: fill 2s ease-out forwards;
+	    }
+	}
+}
+
+
+
+/* Listes
+-------------------------------------------------------------*/
+
+
+/* Classes
+-------------------------------------------------------------*/
+
+
+
